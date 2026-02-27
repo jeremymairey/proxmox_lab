@@ -22,6 +22,11 @@ Installer Debian dans une VM et maîtriser les commandes de base d’un serveur 
 ## 3. Commandes de base après installation
 
 ```bash
+# Mise à jour de la liste des paquets et installations des mises à jour
 sudo apt update && sudo apt upgrade -y
+
+# Affiche la version du noyau et des infos système
 uname -a
+
+# Affiche les interfaces réseau et adresses IP
 ip a
