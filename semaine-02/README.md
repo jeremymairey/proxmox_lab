@@ -1,10 +1,10 @@
 # Semaine 2 – Utilisateurs, sudo, SSH et Firewall UFW
 
 ## 🎯 Objectifs
-- Créer un utilisateur non-root
+- Créer un utilisateur non-root pour travailler en sécurité
 - Lui attribuer les droits sudo
-- Configurer le service SSH
-- Installer et activer le firewall UFW
+- Configurer le service SSH (permet de se connecter à sa VM Debian depuis un autre ordinateur, empêcher root de se connecter en SSH, protéger la connexion)
+- Installer et activer le firewall UFW (bloquer les ports, protéger le serveur)
 - Vérifier que tout fonctionne correctement
 
 ---
