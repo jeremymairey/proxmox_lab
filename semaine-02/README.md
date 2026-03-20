@@ -35,7 +35,7 @@ PermitRootLogin no
 PasswordAuthentification yes
 
 # Redémarrer SSH
-sudo systemctl restart sshd
+sudo systemctl restart ssh
 ```
 
 ## 4. Firewall UFW
