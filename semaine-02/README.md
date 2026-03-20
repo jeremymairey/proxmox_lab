@@ -62,6 +62,5 @@ systemctl status ssh   # Vérifie que SSH fonctionne
 sudo ufw status             # Vérifie les règles du firewall
 ```
 
-![Vérifications](captures/verifications.png)
-![Connexion SSH](captures/ssh_powershell.png)
-
+<img src="captures/verifications.png" width="600">
+<img src="captures/ssh_powershell.png" width="600">
