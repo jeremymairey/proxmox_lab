@@ -72,16 +72,24 @@ less /var/log/auth.log
 
 ### Étapes
 ```bash
+# 1. Vérifier l’état du service
 systemctl status ssh
+
+# 2. Lire les logs du service
 journalctl -u ssh -b -n 50
-sshd -t
-nano /etc/ssh/sshd_config
-systemctl restart ssh
+
+# 3. Tester la configuration
+sudo sshd -t
+
+# 4. Vérifier permissions & ownership
+ls -l /etc/ssh/sshd_config
+sudo chown root:root /etc/ssh/sshd_config
+sudo chmod 600 /etc/ssh/sshd_config
+
+# 5. Modifier la configuration si nécessaire
+sudo nano /etc/ssh/sshd_config
+
+# 6. Redémarrer et vérifier le port
+sudo systemctl restart ssh
 ss -tulpn | grep ssh
 ```
-
----
-
-## 📦 Livrable
-- \`diagnostic-linux.md\` (fiche professionnelle de diagnostic)
-EOF
