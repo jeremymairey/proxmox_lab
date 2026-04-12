@@ -1,7 +1,9 @@
 # Semaine 1 – Installation Debian + commandes de base
 
-## Objectif
+## Objectifs
 Installer Debian dans une VM et maîtriser les commandes de base d’un serveur Linux.
+
+---
 
 ## 1. Création de la VM
 - Hyperviseur : VMware
