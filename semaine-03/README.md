@@ -1,5 +1,9 @@
-## 🎯 Objectif de la semaine
-Comprendre et diagnostiquer les services Linux via **systemd**, analyser les logs avec **journald**, et utiliser les fichiers de logs classiques.
+# Semaine 3 - Diagnostic des services Linux
+
+## Objectifs
+- Comprendre et diagnostiquer les services Linux via **systemd**
+- Analyser les logs avec **journald**
+- Utiliser les fichiers de logs classiques.
 
 ---
 
