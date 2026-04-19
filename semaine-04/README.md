@@ -82,6 +82,7 @@ systemctl status pvedaemon    # Vérifie le service principal Proxmox
 systemctl status pveproxy     # Vérifie l'interface web
 df -h                         # Vérifie le stockage
 ```
+---
 
 ## 7. Notes d'installation
 
